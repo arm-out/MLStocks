@@ -48,5 +48,3 @@ def extract_featuresets(ticker):
     y = df['{}_target'.format(ticker)].values
 
     return X, y, df
-
-extract_featuresets('AAPL')
